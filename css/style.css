@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
   font-family: "Roboto-Regular";
   src: url("../font/Roboto-Regular.ttf") format("truetype");
@@ -17,6 +18,7 @@
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
     transform: scale(0);
@@ -28,6 +30,7 @@
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -37,6 +40,7 @@
   from {
     transform: rotate(0);
   }
+
   to {
     transform: rotate(1turn);
   }
@@ -125,28 +129,28 @@
   background: radial-gradient(#ff8de0, #c9abee);
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__timer-container > .quarter1--1 {
+.background-loading-spinner__tray__ustensils__dish-container__timer-container>.quarter1--1 {
   transform: rotate(0deg);
   top: -3.165em;
   left: -3.6em;
   animation: timer 1.6s 0.2s infinite backwards;
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__timer-container > .quarter1--2 {
+.background-loading-spinner__tray__ustensils__dish-container__timer-container>.quarter1--2 {
   transform: rotate(90deg);
   top: -3.165em;
   left: -3.6em;
   animation: timer 1.6s 0.4s infinite backwards;
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__timer-container > .quarter2--1 {
+.background-loading-spinner__tray__ustensils__dish-container__timer-container>.quarter2--1 {
   transform: rotate(180deg);
   top: -6.3465em;
   left: -6.755em;
   animation: timer 1.6s 0.55s infinite backwards;
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__timer-container > .quarter2--2 {
+.background-loading-spinner__tray__ustensils__dish-container__timer-container>.quarter2--2 {
   transform: rotate(270deg);
   top: -12.693em;
   left: -6.755em;
@@ -171,7 +175,7 @@
   position: relative;
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__little-ring-container > .ball-rotation--1 {
+.background-loading-spinner__tray__ustensils__dish-container__little-ring-container>.ball-rotation--1 {
   left: -8.25em;
   top: -0.85em;
   animation: ball-rotation 1.59s 0.1s infinite cubic-bezier(0.77, 0.95, 0.78, 0.99);
@@ -180,7 +184,7 @@
   height: 0.625em;
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__little-ring-container > .ball-rotation--2 {
+.background-loading-spinner__tray__ustensils__dish-container__little-ring-container>.ball-rotation--2 {
   left: -8.25em;
   top: -1.35em;
   animation: ball-rotation 1.59s 0.2s infinite cubic-bezier(0.77, 0.95, 0.78, 0.99);
@@ -189,7 +193,7 @@
   height: 0.55em;
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__little-ring-container > .ball-rotation--3 {
+.background-loading-spinner__tray__ustensils__dish-container__little-ring-container>.ball-rotation--3 {
   left: -8.25em;
   top: -1.85em;
   animation: ball-rotation 1.59s 0.3s infinite cubic-bezier(0.77, 0.95, 0.78, 0.99);
@@ -198,7 +202,7 @@
   height: 0.475em;
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__little-ring-container > .ball-rotation--4 {
+.background-loading-spinner__tray__ustensils__dish-container__little-ring-container>.ball-rotation--4 {
   left: -8.25em;
   top: -2.35em;
   animation: ball-rotation 1.59s 0.4s infinite cubic-bezier(0.77, 0.95, 0.78, 0.99);
@@ -207,7 +211,7 @@
   height: 0.4em;
 }
 
-.background-loading-spinner__tray__ustensils__dish-container__little-ring-container > .ball-rotation--5 {
+.background-loading-spinner__tray__ustensils__dish-container__little-ring-container>.ball-rotation--5 {
   left: -8.25em;
   top: -2.85em;
   animation: ball-rotation 1.59s 0.5s infinite cubic-bezier(0.77, 0.95, 0.78, 0.99);
@@ -230,6 +234,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -240,6 +245,7 @@
     opacity: 0;
     transform: translateY(25px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0px);
@@ -488,11 +494,11 @@ footer h4 {
   box-shadow: 0.25rem 0.25rem 15px #7b7171;
 }
 
-.operating__list-steps__item:hover > .operating__list-steps__item__icon {
+.operating__list-steps__item:hover>.operating__list-steps__item__icon {
   opacity: 0;
 }
 
-.operating__list-steps__item:hover > .operating__list-steps__item__iconhover {
+.operating__list-steps__item:hover>.operating__list-steps__item__iconhover {
   opacity: 1;
 }
 
@@ -660,11 +666,11 @@ footer h4 {
   left: -4.25em;
 }
 
-.container-restaurants__shop__likecontainer:hover > .container-restaurants__shop__likecontainer--empty {
+.container-restaurants__shop__likecontainer:hover>.container-restaurants__shop__likecontainer--empty {
   animation: fullheart .5s forwards reverse;
 }
 
-.container-restaurants__shop__likecontainer:hover > .container-restaurants__shop__likecontainer--full {
+.container-restaurants__shop__likecontainer:hover>.container-restaurants__shop__likecontainer--full {
   animation: fullheart .5s forwards;
 }
 
@@ -889,11 +895,11 @@ footer h4 {
   cursor: pointer;
 }
 
-.hdrsections__likecontainer:hover > .hdrsections__likecontainer--empty {
+.hdrsections__likecontainer:hover>.hdrsections__likecontainer--empty {
   animation: fullheart .5s forwards reverse;
 }
 
-.hdrsections__likecontainer:hover > .hdrsections__likecontainer--full {
+.hdrsections__likecontainer:hover>.hdrsections__likecontainer--full {
   animation: fullheart .5s forwards;
 }
 
@@ -1016,19 +1022,19 @@ footer h4 {
   align-items: center;
 }
 
-.menusection__block > .btn--1 {
+.menusection__block>.btn--1 {
   animation: loadingbtnstep 0.8s 0.2s backwards ease;
 }
 
-.menusection__block > .btn--2 {
+.menusection__block>.btn--2 {
   animation: loadingbtnstep 0.8s 0.4s backwards ease;
 }
 
-.menusection__block > .btn--3 {
+.menusection__block>.btn--3 {
   animation: loadingbtnstep 0.8s 0.6s backwards ease;
 }
 
-.menusection__block > .btn--4 {
+.menusection__block>.btn--4 {
   animation: loadingbtnstep 0.8s 0.8s backwards ease;
 }
 
@@ -1050,11 +1056,11 @@ footer h4 {
   box-shadow: 0.25rem 0.25rem 15px #7b7171;
 }
 
-.menusection__block__btn:hover > .menusection__block__btn__order {
+.menusection__block__btn:hover>.menusection__block__btn__order {
   margin-right: 0;
 }
 
-.menusection__block__btn:hover > .menusection__block__btn__order > .menusection__block__btn__order__container {
+.menusection__block__btn:hover>.menusection__block__btn__order>.menusection__block__btn__order__container {
   transform: rotate(360deg);
 }
 
@@ -1063,6 +1069,7 @@ footer h4 {
     width: 23em;
     box-shadow: none;
   }
+
   .menusection__block__btn:hover {
     box-shadow: 0.25rem 0.25rem 15px #7b7171;
   }
@@ -1072,6 +1079,7 @@ footer h4 {
   .menusection__block__btn {
     box-shadow: none;
   }
+
   .menusection__block__btn:hover {
     box-shadow: 0.25rem 0.25rem 15px #7b7171;
   }
@@ -1081,6 +1089,7 @@ footer h4 {
   .menusection__block__btn {
     box-shadow: none;
   }
+
   .menusection__block__btn:hover {
     box-shadow: 0.25rem 0.25rem 15px #7b7171;
   }
